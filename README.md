@@ -1,7 +1,8 @@
 sample_html
 ===========
-#CSS組版評価用サンプル2
+#CSS組版評価用サンプル3
 
 #autor
 *takashi shiraishi
-*toshihiro imokawa
+*ryuta shiraishi
+*phoo
