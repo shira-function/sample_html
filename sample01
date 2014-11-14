@@ -1,0 +1,221 @@
+<html>
+<head>
+<style>
+  	@page {
+  		size : JIS-B5;
+  	}
+  	* {
+  		padding : 0;
+  		margin : 0pt;
+  		text-indent:0;
+  	}
+  	body {
+/*  		font-size : 10pt;*/
+      margin : 20pt;
+  		font-family: "MS Mincho",serif;
+  		line-height : 1.5em;
+  	}
+  	h1 {
+  		font-family : "MS Gothic",sans-serif;;
+  		font-size : 12pt;
+  		font-weight : normal;
+  		padding-left : 1em;
+  		text-indent : -1em;
+   	}
+  	h1 h2 {
+  		display : inline;
+  		font-family : "MS Mincho",serif;
+  		font-size : 10pt;
+  		font-weight : normal;
+  		padding-left : 0;
+  		text-indent : 0;
+   	}
+	h1 h2::before {
+		font-family: "MS Mincho",serif;
+		content : " " "－";
+	}
+	h1 h2::after {
+		font-family: "MS Mincho",serif;
+		content : "－";
+	}
+	dl {
+		display: table;
+		margin: 0;
+		margin-left: 1em;
+	}
+	dt {
+		display: table-cell;
+		width: 8em;
+		padding-right: 1em;
+	}
+	dl.sepa > dl > dd::before{
+		content : "……";
+	}
+	dd {
+		display: table-cell;
+		width: auto;
+		padding-left: 1em;
+	}
+	dl.sepa > dl > dd:first-of-type{
+		text-indent : -2em;
+	}
+	.unit {
+		text-align : right;
+	}
+  .contrast{
+    border:solid 0.5pt;
+  }
+  li {
+    list-style-type : none;
+  } 
+  span.list-group,span.list-comb {
+    font-weight : bold;
+  }
+/*リストのインライン改行表示*/
+  .list-group,.list-comb{
+    color : red;
+    display:inline-block;
+    font-weight:normal;
+    margin-left:0.25em;
+    margin-right:0.25em;
+    padding:0.25em;
+    border-left:solid 0.5pt;
+    border-right:solid 0.5pt;
+    border-radius:8pt;
+    vertical-align:middle;
+    line-height:1em;
+  }
+/*リストの追い込み表示*/
+  span.list-group_line {
+    display : inline;
+    font-weight : normal;
+  }
+  span.list-group_line > ul{
+    display : inline;
+  }
+  span.list-group_line > ul::before {
+    content : "（";
+  }
+  span.list-group_line > ul::after {
+    content : "）";
+  }
+
+  span.list-group_line > ul > li{
+    display : inline;
+  }
+  span.list-group_line > ul > li:not(:last-child)::after{
+    content : "・";
+  }
+/*リストの追い込み表示*/
+  span.list-comb_line {
+    display : inline;
+    font-weight : normal;
+  }
+  span.list-comb_line > ul{
+    display : inline;
+  }
+  span.list-comb_line > ul > li{
+    display : inline;
+  }
+  span.list-comb_line > ul > li:not(:last-child)::after{
+    content : "、";
+  }
+
+  .note {
+    border : dotted 0.5pt;
+  }
+
+  </style>
+</head>
+<body>
+<h1>１　１週間の法定労働時間<h2>週40時間労働制</h2></h1>
+<dl class="sepa">
+<p>③　固定資産の減価償却の方法</p>
+<dl>
+<dt>有形固定資産<br>（リース資産を除く）</dt>
+<dd>定率法<p>ただし、平成10年４月１日以降に取得した建物（建物附属設備は除く）については定率法によっております。</p>
+<p>なお、主な耐用年数は以下のとおりであります。</p>
+<p>建物　○～○年</p>
+<p>機械装置　○～○年</p>
+<p>工具器具備品　○～○年</p>
+</dd>
+</dl>
+<dl>
+<dt>無形固定資産<br>（リース資産を除く）</dt>
+<dd>定額法
+<p>なお、主な耐用年数は自社利用のソフトウェア5年であります。</p>
+</dl>
+<dl>
+<dt>リース資産</dt>
+<dd>リース期間を耐用年数とし、残存期間を零とする定額法を採用しております。
+<P>なお、所有権移転外ファイナンス・リース取引のうち、リース取引開始日が平成20年3月31日以前のリース取引については、通常の賃貸借取引に係る方法に準拠した会計処理によっております。</p>
+</dd>
+</dl>
+<p>④　引当金の計上基準</p>
+<dl>
+<dt>貸倒引当金</dt>
+<dd>一般債権については貸倒実績法により、貸倒懸念債権等特定の債権については個別に回収可能性を検討し、回収不能見込額を計上しております。</dd>
+</dl>
+<dl>
+<dt>退職給付金引当金</dt>
+<dd>従業員の退職給付に備えるため、当期末における退職給付債務および年金資産の見込額に基づき計上しております。<br>
+なお、数理計算上の差異は、その発生時の従業員の平均残存勤務時間以内の一定の年数（10年）による定額法により、翌期から費用処理することとしております。</dd>
+</dl>
+</dl>
+<hr>
+<p>よって、会計上、償却を見込み販売本数等に基づいて行っている場合には、申告調整が必要となりましので、留意が必要です。</p>
+<p>別表第三　無形減価償却資産</p>
+<table class="list" style="table-layout:fixed;">
+  <colgroup>
+    <col width="30%"/>
+    <col width="40%"/>
+    <col width="30%" style="text-align:center;"/>
+  </colgroup>
+  <tbody>
+    <tr><td>ソフトウェア</td><td>複写して販売するための原本</td><td class="unit">３年</td></tr>
+    <tr><td></td><td>その他のもの</td><td class="unit">５年</td></tr>
+  </tbody>
+</table>
+<p>別表第六　開発研究用減価償却資産</p>
+<p>ソフトウェア　３年</p>
+<p>なお、ソフトウェアの償却計算にかかわる残存年数については、他の無形固定資産と同様にゼロとされています（耐用年数　別表第三、第九）。</p>
+
+<section class="contrast">
+<caption style="font-weight:bold;text-align:center;">外国の法令労働時間</caption>
+<p style="padding-left:2em;text-indent:1em;">外国の週法定労働時間の例をいくつか挙げると、
+<span>
+<dl><dt>アメリカ</dt><dd>40時間</dd></dl>
+<dl><dt>カナダ</dt><dd>40時間</dd></dl>
+<dl><dt>フランス</dt><dd>35時間</dd></dl>
+</span>
+あああああなどとなっています。</p>
+<p style="padding-left:1em;text-indent:1em;">ドイツ、イタリアは、法制上は48時間ですが、実態としては40時間制が定着しています。</p>
+</section>
+
+<section>
+  <dl><dt>【IT関係のコスト項目】</dt>
+    <dl><dt>初期費用（運用開始までにかかる費用）</dt>
+      <dl><dt>人件費</dt><dd>社内での企画調査</dd></dl>
+      <dl><dt>会議費</dt><dd>導入検討、レビュー</dd></dl>
+    </dl>
+  </dl>
+</section>
+<section data-samp="労大67">
+  <p>【親子リスト】</p>
+    <p>これは成文労働法<ul class="list-group"><li>個別労働関係法（又は労働保護法又は労働者保護法とも称される）</li><li>集団的労働関係法（又は労働団体法とも称される）</li><li>雇用対策関係法（又は雇用保障法とも称される）</li><li>労働福祉関係法（又は労働者福祉法とも称される）</li></ul>です。</p>
+  <p>【組合せリスト】これは<span><ul class="list-comb"><li>船殻作業場の全域</li><li>艤装または修理作業場の全域</li><li>造機作業場の全域</li></ul></span>または造船所の全域です。</p>
+</section>
+<section data-samp="労働時間103">
+  <section class="note">
+    <span><span class="list-group">常時使用する労働者の数が10人未満の
+      <ul>
+        <li>①　商業（労働基準法別表第１の８号の事業）</li>
+        <li>②　映画・演劇業（同10号の事業、映画の製作の事業を除く</li>
+        <li>③　保健衛生業（同13号の事業）</li>
+        <li>④　接客娯楽業（同14号の事業）</li>
+      </ul>
+    </span></span>
+  </section>  
+</section>  
+</body>
+</html>
